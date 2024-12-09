@@ -35,13 +35,13 @@ These files are essential for running inferences with different vocoders.
 #### Using **MelGAN**
 To generate audio using MelGAN:
 ```bash
-python MelGAN.py --input_folder <path_to_input_folder> --output_folder <path_to_output_folder>
+python MelGAN.py --input_folder <path_to_mel_spectrograms_folder> --output_folder <path_to_output_folder>
 ```
 
 #### Using **WaveGlow**
 To generate audio using WaveGlow:
 ```bash
-python WaveGlow.py --input_folder <path_to_input_folder> --output_folder <path_to_output_folder>
+python WaveGlow.py --input_folder <path_to_mel_spectrograms_folder> --output_folder <path_to_output_folder>
 ```
 
 ---
